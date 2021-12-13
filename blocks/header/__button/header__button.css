@@ -1,0 +1,9 @@
+.header__button {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+
+.header__button:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__arrow/header__arrow.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/course/course.css);
+@import url(../blocks/course/__block/course__block.css);
+@import url(../blocks/course/__image/course__image.css);
+@import url(../blocks/course/__title/course__title.css);
+@import url(../blocks/course/__text/course__text.css);
+@import url(../blocks/course/__button/course__button.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);

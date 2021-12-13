@@ -6,4 +6,4 @@
 
 Ссылка на макет в figma: https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings?node-id=6%3A3
 
-ССылка на GitHub Pages: 
+ССылка на GitHub Pages: https://alexandr-gerasimov.github.io/photo-course/

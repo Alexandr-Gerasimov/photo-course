@@ -1,0 +1,14 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.header__arrow:hover {
+    font-weight: 500;
+    cursor: url("/images/Pointer.svg"), pointer;
+    animation: rotation 10s linear infinite;
+}

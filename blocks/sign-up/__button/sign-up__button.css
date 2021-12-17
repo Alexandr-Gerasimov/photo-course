@@ -1,4 +1,18 @@
 .sign-up__button {
     width: 205px;
     height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: unset;
+    border-radius: 0px 8px 8px 0px;
+    margin-top: -5px;
+    margin-left: -6px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.sign-up__button:hover {
+    font-weight: 500;
+    cursor: url("/images/Pointer.svg"), pointer;
 }

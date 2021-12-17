@@ -10,3 +10,8 @@
     font-weight: 400;
     color: #000;
 }
+
+.course__button:hover {
+    font-weight: 500;
+    cursor: url("/images/Pointer.svg"), pointer;
+}

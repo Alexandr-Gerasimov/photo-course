@@ -1,5 +1,6 @@
 .course {
     display: flex;
     padding: 50px;
+    justify-content: space-between;
     background-color: #fff;
 }

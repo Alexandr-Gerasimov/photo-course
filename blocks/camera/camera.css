@@ -1,0 +1,9 @@
+.camera {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 180px 50px;
+    justify-content: space-between;
+    background-color: #000;
+}

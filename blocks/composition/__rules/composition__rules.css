@@ -1,0 +1,6 @@
+.composition__rules {
+    display: flex;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

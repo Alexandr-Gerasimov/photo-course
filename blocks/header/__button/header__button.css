@@ -12,3 +12,15 @@
     font-weight: 500;
     cursor: url("/images/Pointer.svg"), pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .header__button {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .header__button:last-child {
+        margin-bottom: 6px;
+    }
+    
+}

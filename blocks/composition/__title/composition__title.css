@@ -6,3 +6,18 @@
     font-weight: 400;
     color: #000;
 }
+
+@media screen and (max-width: 1410px) {
+    .composition__title {
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .composition__title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+  }

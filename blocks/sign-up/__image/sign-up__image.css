@@ -3,3 +3,10 @@
     margin-right: 50px;
     align-self: flex-start;
 }
+
+@media screen and (max-width: 1410px) {
+    .sign-up__image {
+        display: none;
+    }
+    
+}

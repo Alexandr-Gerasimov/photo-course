@@ -6,3 +6,11 @@
     color: #fff;
     width: 526px;
 }
+
+@media screen and (max-width: 767px) {
+    .camera__comment {
+        font-size: 24px;
+        line-height: 26px;
+        width: auto;
+    }
+}

@@ -16,3 +16,21 @@
     font-weight: 500;
     cursor: url("/images/Pointer.svg"), pointer;
 }
+
+@media screen and (max-width: 1410px) {
+    .composition__button {
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .composition__button {
+        padding: 6px 0;
+        font-size: 14px;
+        width: 169px;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+    
+  }

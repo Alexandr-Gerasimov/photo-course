@@ -3,12 +3,19 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__arrow/header__arrow.css);
+@import url(../blocks/header/__arrow/_delete/header__arrow_delete.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_close/header__burger_close.css);
+@import url(../blocks/header/__block/header__block.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_active/header__menu_active.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/course/course.css);
 @import url(../blocks/course/__block/course__block.css);
 @import url(../blocks/course/__image/course__image.css);
+@import url(../blocks/course/__image-tablet/cuorse__image-tablet.css);
 @import url(../blocks/course/__title/course__title.css);
 @import url(../blocks/course/__text/course__text.css);
 @import url(../blocks/course/__button/course__button.css);
@@ -16,6 +23,7 @@
 @import url(../blocks/composition/__block/composition__block.css);
 @import url(../blocks/composition/__button/composition__button.css);
 @import url(../blocks/composition/__image/composition__image.css);
+@import url(../blocks/composition/__image-tablet/composition__image-tablet.css);
 @import url(../blocks/composition/__text/composition__text.css);
 @import url(../blocks/composition/__text-bold/composition__text-bold.css);
 @import url(../blocks/composition/__title/composition__title.css);
@@ -25,6 +33,7 @@
 @import url(../blocks/camera/__title/camera__title.css);
 @import url(../blocks/camera/__text/camera__text.css);
 @import url(../blocks/camera/__image/camera__image.css);
+@import url(../blocks/camera/__image-tablet/camera__image-tablet.css);
 @import url(../blocks/camera/__feedback/camera__feedback.css);
 @import url(../blocks/camera/__contacts/camera__contacts.css);
 @import url(../blocks/camera/__comment/camera__comment.css);

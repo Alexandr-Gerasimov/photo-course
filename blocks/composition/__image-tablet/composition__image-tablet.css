@@ -1,0 +1,18 @@
+.composition__image-tablet {
+    display: none;
+}
+
+@media screen and (max-width: 1410px) {
+    .composition__image-tablet {
+        display: block;
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .composition__image-tablet {
+        width: 280px;
+    }
+    
+}

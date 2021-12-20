@@ -2,3 +2,12 @@
     margin-top: 336px;
     margin-left: 312px;
 }
+
+@media screen and (max-width: 1410px) {
+    .orders-searching__block-two {
+        width: 380px;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    
+}

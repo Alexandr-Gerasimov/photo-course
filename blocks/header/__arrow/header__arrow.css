@@ -8,7 +8,13 @@
   }
 
 .header__arrow:hover {
-    font-weight: 500;
     cursor: url("/images/Pointer.svg"), pointer;
-    animation: rotation 10s linear infinite;
+    animation: rotation 5s linear infinite;
+}
+
+@media screen and (max-width: 767px) {
+  .header__arrow {
+      width: 30px;
+  }
+  
 }

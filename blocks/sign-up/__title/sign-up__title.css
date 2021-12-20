@@ -6,3 +6,22 @@
     font-weight: 400;
     color: #fff;
 }
+
+@media screen and (max-width: 1410px) {
+    .sign-up__title {
+        margin-bottom: 190px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .sign-up__title {
+        font-size: 48px;
+        line-height: 50px;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 200px;
+        border-top: 1px solid #fff;
+    }
+    
+  }

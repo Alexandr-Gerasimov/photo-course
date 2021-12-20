@@ -5,3 +5,18 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 767px) {
+    .orders-searching__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .orders-searching__text:first-child {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-top: 1px solid #000;
+    }
+    
+  }

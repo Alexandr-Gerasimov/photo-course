@@ -1,0 +1,25 @@
+@media screen and (max-width: 1410px) {
+    .camera__feedback {
+        margin-top: 60px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .camera__feedback:last-child {
+        padding: 0;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .camera__feedback {
+       margin-top: 0;
+       padding-bottom: 30px;
+    }
+    
+    .camera__feedback:last-child {
+        margin-top: 30px;
+    }
+
+}

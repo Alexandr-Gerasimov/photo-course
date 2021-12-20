@@ -1,0 +1,21 @@
+.header__burger {
+    align-self: center;
+    border: none;
+    background-color: unset;
+    padding: 0;
+    width: 32px;
+    height: 23px;
+    background-image: url("/images//Group\ 9.svg");
+    display: none;
+}
+
+.header__burger:hover {
+    cursor: url("/images/Pointer.svg"), pointer;
+}
+
+@media screen and (max-width: 1410px) {
+    .header__burger {
+        display: block;
+    }
+    
+}

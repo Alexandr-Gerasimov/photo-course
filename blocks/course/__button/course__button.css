@@ -15,3 +15,12 @@
     font-weight: 500;
     cursor: url("/images/Pointer.svg"), pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .course__button {
+        padding: 6px 0;
+        font-size: 14px;
+        width: 169px;
+    }
+    
+  }

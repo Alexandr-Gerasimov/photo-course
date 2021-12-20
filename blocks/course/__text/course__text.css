@@ -6,3 +6,20 @@
     font-weight: 400;
     color: #000;
 }
+
+@media screen and (max-width: 1410px) {
+    .course__text {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .course__text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    
+  }

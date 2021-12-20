@@ -4,3 +4,17 @@
     justify-content: space-between;
     background-color: #fff;
 }
+
+@media screen and (max-width: 1410px) {
+    .course {
+        padding: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .course {
+        padding: 20px;
+    }
+    
+  }

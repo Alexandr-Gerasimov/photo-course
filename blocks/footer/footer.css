@@ -2,3 +2,17 @@
     background-color: #DF2626;
     padding: 50px;
 }
+
+@media screen and (max-width: 1410px) {
+    .footer {
+        padding: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 20px;
+    }
+    
+  }

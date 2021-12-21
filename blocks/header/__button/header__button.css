@@ -2,6 +2,8 @@
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .header__button:last-child {

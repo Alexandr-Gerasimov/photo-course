@@ -16,6 +16,20 @@
     cursor: url("/images/Pointer.svg"), pointer;
 }
 
+
+.sign-up__item::placeholder {
+    color: #000;
+}
+
+.sign-up__item:focus + .sign-up__button {
+    font-weight: 500;
+}
+
+.sign-up__item:focus::-webkit-input-placeholder {
+    color: transparent;
+    }
+
+
 @media screen and (max-width: 767px) {
     .sign-up__item {
         width: 175px;

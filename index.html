@@ -13,36 +13,36 @@
             <div class="header__block">
                 <img src="images/arrow.svg" alt="стрелка" class="header__arrow">
                 <div class="header__buttons">
-                    <p class="header__button">Композиция</p>
-                    <p class="header__button">Камера</p>
-                    <p class="header__button">Поиск заказов</p>
+                    <a href="#composition" class="header__button">Композиция</a>
+                    <a href="#camera" class="header__button">Камера</a>
+                    <a href="#orders-searching" class="header__button">Поиск заказов</a>
                 </div>
             <button type="button" class="header__burger"></button>
             </div>
             <div class="header__menu">
-                <p class="header__button">Композиция</p>
-                <p class="header__button">Камера</p>
-                <p class="header__button">Поиск заказов</p>
+                <a href="#composition" class="header__button">Композиция</a>
+                <a href="#camera" class="header__button">Камера</a>
+                <a href="#orders-searching" class="header__button">Поиск заказов</a>
             </div>
         </header>
         <main class="main">
-            <section class="course">
+            <section class="course" id="course">
                 <div class="course__block">
                     <h1 class="course__title">Курс по фотографии</h1>
                     <img src="./images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.png" alt="лес в тумане" class="course__image-tablet">
                     <p class="course__text">Фотография в природных условиях, уроки по композиции и по пользованию камерой</p>
-                    <button type="button" class="course__button">Подробнее</button>
+                    <button type="button" id="composition-button" class="course__button">Подробнее</button>
                 </div>
                 <img src="./images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.png" alt="лес в тумане" class="course__image">
             </section>
-            <section class="composition">
+            <section class="composition" id="composition">
                 <div class="composition__block">
                     <h3 class="composition__text">композиция</h3>
                     <h2 class="composition__title">Изучите композицию</h2>
                     <img src="./images/launde-morel-jYVspgngNf8-unsplash 1.png" alt="дорога в лесу" class="composition__image-tablet">
                     <p class="composition__text">Вы изучите гармоничное размещение всех элементов изображения на <span class="composition__text-bold">снимке.</span></p>
                     <p class="composition__text">Изучите композицию интуитивную и какие-то определённые законы.</p>
-                    <button type="button" class="composition__button">Записаться</button>
+                    <button type="button" class="composition__button" id="sign-up-button">Записаться</button>
                 </div>
                 <img src="./images/launde-morel-jYVspgngNf8-unsplash 1.png" alt="дорога в лесу" class="composition__image">
                 <div class="composition__rules">
@@ -52,7 +52,7 @@
                     <p class="composition__rule">3D глубина кадра: расположи объект позади и перед другими предметами.</p>
                 </div>
             </section>
-            <section class="camera">
+            <section class="camera" id="camera">
                 <div class="camera__block">
                     <h3 class="camera__text">камера</h3>
                     <h2 class="camera__title">Настройка<br>Съемка<br>Обработка</h2>
@@ -71,7 +71,7 @@
                     <p class="camera__contacts">@john_sport</p>
                 </div>
             </section>
-            <section class="orders-searching">
+            <section class="orders-searching" id="orders-searching">
                 <div class="orders-searching__block">
                     <h3 class="orders-searching__text">поиск заказов</h3>
                     <h2 class="orders-searching__title">Научим находить<br>заказы!</h2>
@@ -79,16 +79,16 @@
                 </div>
                 <div class="orders-searching__block-two">
                     <p class="orders-searching__paragraph">Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти постоянную работу.</p>
-                    <button type="button" class="orders-searching__button">Записаться</button> 
+                    <button type="button" class="orders-searching__button" id="orders-searching-button">Записаться</button> 
                 </div>
             </section>
-            <section class="sign-up">
+            <section class="sign-up" id="sign-up">
                 <img src="./images/bid-arrow.svg" alt="большая стрелка" class="sign-up__image">
                 <div class="sign-up__box">
                     <h2 class="sign-up__title">Записаться! Сейчас!</h2>
                     <label class="sign-up__label" for="email">
-                        <input type="email" class="sign-up__item" id="email" name="email" placeholder="Ваша почта">
-                        <button type="submit" class="sign-up__button">Записаться!</button>
+                        <input type="email" class="sign-up__item" id="email" name="email" placeholder="Ваша почта" value>
+                        <button type="submit" class="sign-up__button" onclick="toggleText(this)">Записаться!</button>
                     </label>
                     
 

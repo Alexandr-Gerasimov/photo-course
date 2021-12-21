@@ -14,4 +14,55 @@ function openBurgerMenu(burger) {
 
 burgerButton.addEventListener('click', function () {
     openBurgerMenu(burgerMenu)
-})
+});
+
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
+
+document.getElementById('composition-button').addEventListener('click', scrollToElement);
+function scrollToElement(e) {
+    element = document.getElementById("composition")
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+};
+
+document.getElementById('sign-up-button').addEventListener('click', scrollToSign);
+function scrollToSign(e) {
+    element = document.getElementById("sign-up")
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+};
+
+document.getElementById('orders-searching-button').addEventListener('click', scrollToSignUp);
+function scrollToSignUp(e) {
+    element = document.getElementById("sign-up")
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+};
+
+function toggleText(btn) {
+     if (btn.innerHTML == "Записаться!") {
+        btn.innerHTML = "Спасибо!";
+    } else {
+        btn.innerHTML = "Записаться!";
+    }
+}
+
+const header = document.querySelector('.header');
+

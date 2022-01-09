@@ -5,12 +5,12 @@
     padding: 0;
     width: 32px;
     height: 23px;
-    background-image: url("/images//Group\ 9.svg");
+    background-image: url('../../../images/Group\ 9.svg');
     display: none;
 }
 
 .header__burger:hover {
-    cursor: url("/images/Pointer.svg"), pointer;
+    cursor: url('../../../images/Pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 1410px) {

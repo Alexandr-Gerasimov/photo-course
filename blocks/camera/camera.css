@@ -1,26 +1,3 @@
 .camera {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    gap: 180px 50px;
-    justify-content: space-between;
     background-color: #000;
 }
-
-@media screen and (max-width: 1410px) {
-    .camera {
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-    
-}
-
-@media screen and (max-width: 767px) {
-    .camera {
-        padding: 20px;
-    }
-    
-  }

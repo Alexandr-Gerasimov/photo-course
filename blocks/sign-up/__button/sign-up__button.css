@@ -1,12 +1,13 @@
 .sign-up__button {
-    width: 205px;
-    height: 50px;
+    width: 202px;
+    height: 46px;
     background: #FFFFFF;
     border: 2px solid #000000;
     box-sizing: inherit;
     border-radius: 0px 8px 8px 0px;
     margin-top: -1px;
-    margin-left: -6px;
+    margin-left: -2px;
+    padding: 0;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -14,7 +15,7 @@
 
 .sign-up__button:hover {
     font-weight: 500;
-    cursor: url("/images/Pointer.svg"), pointer;
+    cursor: url('../../../images/Pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 1410px) {
@@ -26,7 +27,8 @@
 
 @media screen and (max-width: 767px) {
     .sign-up__button {
-        width: 107px;
+        width: 103px;
+        height: 46px;
         font-size: 11px;
     }
     

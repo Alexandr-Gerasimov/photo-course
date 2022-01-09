@@ -1,3 +1,10 @@
 .sign-up__box {
     width: 700px;
 }
+
+@media screen and (max-width: 767px) {
+    .sign-up__box {
+        width: 280px;
+    }
+    
+  }

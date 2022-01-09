@@ -12,7 +12,7 @@
 
 .header__button:hover {
     font-weight: 500;
-    cursor: url("/images/Pointer.svg"), pointer;
+    cursor: url('../../../images/Pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 767px) {

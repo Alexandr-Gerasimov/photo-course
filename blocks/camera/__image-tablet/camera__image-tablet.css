@@ -4,6 +4,8 @@
 
 @media screen and (max-width: 1410px) {
     .camera__image-tablet {
+        width: 688px;
+        height: 656px;
         display: block;
         margin-bottom: 60px;
     }

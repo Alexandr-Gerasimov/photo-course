@@ -5,6 +5,14 @@
     background-color: #DF2626;
 }
 
+@media screen and (max-width: 1410px) {
+    .header {
+        padding: 24px 40px;
+    }
+    
+  }
+
+
 @media screen and (max-width: 767px) {
     .header {
         padding: 20px;

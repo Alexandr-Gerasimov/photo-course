@@ -8,8 +8,15 @@
   }
 
 .header__arrow:hover {
-    cursor: url("/images/Pointer.svg"), pointer;
+  cursor: url('../../../images/Pointer.svg'), pointer;
     animation: rotation 5s linear infinite;
+}
+
+@media screen and (max-width: 1410px) {
+  .header__arrow {
+      width: 36px;
+  }
+  
 }
 
 @media screen and (max-width: 767px) {

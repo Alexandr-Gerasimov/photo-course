@@ -1,6 +1,15 @@
+@media screen and (max-width: 1410px) {
+    .orders-searching__image {
+        width: 688px;
+        height: 360px;
+    }
+    
+  }
+
 @media screen and (max-width: 767px) {
     .orders-searching__image {
         width: 280px;
+        height: 147px;
     }
     
   }

@@ -1,6 +1,6 @@
 .sign-up__title {
     margin: 0;
-    margin-bottom: 120px;
+    margin-bottom: 115px;
     font-size: 120px;
     line-height: 120px;
     font-weight: 400;
@@ -10,14 +10,17 @@
 @media screen and (max-width: 1410px) {
     .sign-up__title {
         margin-bottom: 190px;
+        font-size: 100px;
+        line-height: 105px;
     }
     
 }
 
 @media screen and (max-width: 767px) {
     .sign-up__title {
+        width: 280px;
         font-size: 48px;
-        line-height: 50px;
+        line-height: 55px;
         padding-top: 20px;
         margin-top: 20px;
         margin-bottom: 200px;

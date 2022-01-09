@@ -5,6 +5,7 @@
 @media screen and (max-width: 1410px) {
     .course__image-tablet {
         display: block;
+        width: 688px;
     }
     
 }

@@ -1,9 +1,10 @@
 .sign-up__item {
-    width: 348px;
-    height: 50px;
+    width: 324px;
+    height: 46px;
     background: #FFFFFF;
     border: 2px solid #000000;
     border-radius: 8px 0px 0px 8px;
+    padding: 0;
     padding-left: 20px;
     font-size: 14px;
     line-height: 24px;
@@ -13,7 +14,7 @@
 
 .sign-up__item:hover {
     font-weight: 500;
-    cursor: url("/images/Pointer.svg"), pointer;
+    cursor: url('../../../images/Pointer.svg'), pointer;
 }
 
 
@@ -32,7 +33,8 @@
 
 @media screen and (max-width: 767px) {
     .sign-up__item {
-        width: 175px;
+        width: 151px;
+        font-size: 11px;
     }
     
   }

@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1410px) {
     .composition__title {
+        max-width: 600px;
         margin-bottom: 60px;
     }
     

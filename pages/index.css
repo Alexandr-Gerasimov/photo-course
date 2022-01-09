@@ -13,6 +13,7 @@
 @import url(../blocks/header/__menu/_active/header__menu_active.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/course/course.css);
+@import url(../blocks/course/__content/course__content.css);
 @import url(../blocks/course/__block/course__block.css);
 @import url(../blocks/course/__image/course__image.css);
 @import url(../blocks/course/__image-tablet/cuorse__image-tablet.css);
@@ -20,6 +21,7 @@
 @import url(../blocks/course/__text/course__text.css);
 @import url(../blocks/course/__button/course__button.css);
 @import url(../blocks/composition/composition.css);
+@import url(../blocks/composition/__content/composition__content.css);
 @import url(../blocks/composition/__block/composition__block.css);
 @import url(../blocks/composition/__button/composition__button.css);
 @import url(../blocks/composition/__image/composition__image.css);
@@ -30,6 +32,7 @@
 @import url(../blocks/composition/__rules/composition__rules.css);
 @import url(../blocks/composition/__rule/composition__rule.css);
 @import url(../blocks/camera/camera.css);
+@import url(../blocks/camera/__content/camera__content.css);
 @import url(../blocks/camera/__title/camera__title.css);
 @import url(../blocks/camera/__text/camera__text.css);
 @import url(../blocks/camera/__image/camera__image.css);
@@ -40,6 +43,7 @@
 @import url(../blocks/camera/__block/camera__block.css);
 @import url(../blocks/camera/__author/camera__author.css);
 @import url(../blocks/orders-searching/orders-searching.css);
+@import url(../blocks/orders-searching/__content/orders-searching__content.css);
 @import url(../blocks/orders-searching/__title/orders-searching__title.css);
 @import url(../blocks/orders-searching/__text/orders-searching__text.css);
 @import url(../blocks/orders-searching/__paragraph/orders-searching__paragraph.css);
@@ -48,6 +52,7 @@
 @import url(../blocks/orders-searching/__block/orders-searching__block.css);
 @import url(../blocks/orders-searching/__block-two/orders-searching__block-two.css);
 @import url(../blocks/sign-up/sign-up.css);
+@import url(../blocks/sign-up/__content/sign-up__content.css);
 @import url(../blocks/sign-up/__title/sign-up__title.css);
 @import url(../blocks/sign-up/__image/sign-up__image.css);
 @import url(../blocks/sign-up/__box/sign-up__box.css);

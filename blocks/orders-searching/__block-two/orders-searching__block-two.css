@@ -5,9 +5,16 @@
 
 @media screen and (max-width: 1410px) {
     .orders-searching__block-two {
-        width: 380px;
+        width: 320px;
         margin-left: 0;
-        margin-top: 60px;
+        margin-top: 55px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .orders-searching__block-two {
+        width: 280px;
     }
     
 }

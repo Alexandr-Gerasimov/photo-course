@@ -1,20 +1,3 @@
 .orders-searching {
-    display: flex;
     background-color: #fff;
-    padding: 50px;
 }
-
-@media screen and (max-width: 1410px) {
-    .orders-searching {
-        flex-direction: column;
-        padding: 40px;
-    }
-    
-}
-
-@media screen and (max-width: 767px) {
-    .orders-searching {
-        padding: 20px;
-    }
-    
-  }

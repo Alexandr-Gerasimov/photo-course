@@ -1,5 +1,6 @@
 .footer__text {
-    margin: 0;
+    max-width: 1340px;
+    margin: 0 auto;
     font-size: 15px;
     line-height: 24px;
     font-weight: 700;

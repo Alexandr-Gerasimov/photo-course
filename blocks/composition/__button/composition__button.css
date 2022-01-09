@@ -1,0 +1,36 @@
+.composition__button {
+    margin-top: 178px;
+    padding: 9px 0 8px 0;
+    width: 228px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9999px;  
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+}
+
+.composition__button:hover {
+    font-weight: 500;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 1410px) {
+    .composition__button {
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .composition__button {
+        padding: 4px 0;
+        font-size: 14px;
+        width: 169px;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+    
+  }

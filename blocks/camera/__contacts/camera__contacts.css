@@ -1,0 +1,15 @@
+.camera__contacts {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .camera__contacts {
+       font-size: 12px;
+       line-height: 12px;
+    }
+
+}

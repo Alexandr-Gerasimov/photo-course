@@ -1,0 +1,24 @@
+.sign-up__content {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-bottom: 36px;
+    display: flex;
+    background-color: #DF2626;
+}
+
+@media screen and (max-width: 1410px) {
+    .sign-up__content {
+        margin: 0;
+        padding: 40px;
+    }
+    
+  }
+
+@media screen and (max-width: 767px) {
+    .sign-up__content {
+        width: 280px;
+        padding: 20px;
+    }
+    
+  }

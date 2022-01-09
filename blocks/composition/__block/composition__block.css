@@ -1,0 +1,10 @@
+.composition__block {
+    width: 450px;
+}
+
+@media screen and (max-width: 1410px) {
+    .composition__block {
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,7 @@
+.header__block {
+    max-width: 1340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

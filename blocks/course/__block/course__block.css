@@ -1,0 +1,5 @@
+.course__block {
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+}

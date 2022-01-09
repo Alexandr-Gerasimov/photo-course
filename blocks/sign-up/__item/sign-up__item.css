@@ -1,0 +1,40 @@
+.sign-up__item {
+    width: 324px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 8px 0px 0px 8px;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.sign-up__item:hover {
+    font-weight: 500;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+}
+
+
+.sign-up__item::placeholder {
+    color: #000;
+}
+
+.sign-up__item:focus + .sign-up__button {
+    font-weight: 500;
+}
+
+.sign-up__item:focus::-webkit-input-placeholder {
+    color: transparent;
+    }
+
+
+@media screen and (max-width: 767px) {
+    .sign-up__item {
+        width: 151px;
+        font-size: 11px;
+    }
+    
+  }

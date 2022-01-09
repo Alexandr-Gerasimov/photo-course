@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    padding: 22px 50px;
+    justify-content: space-between;
+    background-color: #DF2626;
+}
+
+@media screen and (max-width: 1410px) {
+    .header {
+        padding: 24px 40px;
+    }
+    
+  }
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+  }

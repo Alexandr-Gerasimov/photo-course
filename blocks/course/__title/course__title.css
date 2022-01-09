@@ -1,0 +1,17 @@
+.course__title {
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 400;
+    color: #000;
+}
+
+@media screen and (max-width: 767px) {
+    .course__title {
+        padding-left: -2px;
+        font-size: 47px;
+        line-height: 56px;
+    }
+    
+  }

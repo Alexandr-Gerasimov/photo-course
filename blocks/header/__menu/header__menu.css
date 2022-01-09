@@ -1,0 +1,27 @@
+.header__menu {
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1410px) {
+    .header__menu {
+        position: absolute;
+        height: 40px;
+        flex-direction: row;
+        align-items: center;
+        align-self: center;
+        background-color: #DF2626;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu {
+        position: unset;
+        height: unset;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 26px;
+    }
+}
+

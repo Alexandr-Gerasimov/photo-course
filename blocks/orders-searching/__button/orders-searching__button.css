@@ -1,0 +1,35 @@
+.orders-searching__button {
+    margin-top: 148px;
+    padding: 9px 0 8px 0;
+    width: 228px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9999px;  
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+}
+
+.orders-searching__button:hover {
+    font-weight: 500;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 1410px) {
+    .orders-searching__button {
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .orders-searching__button {
+        padding: 4px 0;
+        font-size: 14px;
+        width: 169px;
+        margin-top: 32px;
+    }
+    
+  }

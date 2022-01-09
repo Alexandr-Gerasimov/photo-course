@@ -1,0 +1,7 @@
+.header__burger_close {
+    background-image: url('../../../../images/Group\ 11.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}

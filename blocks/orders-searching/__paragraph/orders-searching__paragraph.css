@@ -1,0 +1,15 @@
+.orders-searching__paragraph {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .orders-searching__paragraph {
+        width: 280px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+  }

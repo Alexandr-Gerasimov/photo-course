@@ -1,0 +1,38 @@
+.composition__rule {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+    width: 291px;
+}
+
+@media screen and (max-width: 1410px) {
+    .composition__rule {
+        width: auto;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #000000;
+    }
+
+    .composition__rule:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .composition__rule:first-child {
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .composition__rule {
+        width: 274px;
+        margin-top: 14px;
+        padding-bottom: 14px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}

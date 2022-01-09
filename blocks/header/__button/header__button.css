@@ -1,0 +1,28 @@
+.header__button {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__button:last-child {
+    margin-right: 0;
+}
+
+.header__button:hover {
+    font-weight: 500;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .header__button {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .header__button:last-child {
+        margin-bottom: 6px;
+    }
+    
+}

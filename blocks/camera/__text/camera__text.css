@@ -1,0 +1,36 @@
+.camera__text {
+    margin: 0;
+    padding-left: 6px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1410px) {
+    .camera__text:last-child {
+        margin-bottom: 120px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .camera__text {
+        padding-left: 2px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .camera__text:last-child {
+        margin-bottom: 60px;
+    }
+
+    .camera__text:first-child {
+        padding-top: 20px;
+        margin-top: 18px;
+        margin-bottom: 30px;
+        border-top: 1px solid #fff;
+    }
+    
+  }

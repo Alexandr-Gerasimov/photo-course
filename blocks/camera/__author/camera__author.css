@@ -1,0 +1,19 @@
+.camera__author {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .camera__author {
+       margin-top: 32px;
+       margin-bottom: 6px;
+       font-size: 14px;
+       line-height: 20px;
+    }
+
+}
